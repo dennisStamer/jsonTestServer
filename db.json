@@ -2,12 +2,12 @@
   "posts": [
     {
       "id": 1,
-      "title": "hello"
+      "title": "hello",
       "sites": "234"
     },
     {
        "id": 2,
-      "title": "hello again"
+      "title": "hello again",
       "sites": "2341"
     }
   ],
