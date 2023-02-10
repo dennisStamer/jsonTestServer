@@ -1,14 +1,28 @@
 {
-  "posts": [
+  "jobExamples": [
     {
-      "id": 1,
-      "title": "hello",
-      "sites": "234"
+      "countdown": 9,
+      "modul": "VA",
+      "rack": "8334/1",
+      "gasse": "3"
     },
     {
-       "id": 2,
-      "title": "hello again",
-      "sites": "2341"
+       "countdown": 9,
+      "modul": "VA",
+      "rack": "8334/1",
+      "gasse": "3"
+    },
+    {
+       "countdown": 9,
+      "modul": "VA",
+      "rack": "8334/1",
+      "gasse": "3"
+    },
+    {
+       "countdown": 9,
+      "modul": "VA",
+      "rack": "8334/1",
+      "gasse": "3"
     }
   ],
   "profile": {
