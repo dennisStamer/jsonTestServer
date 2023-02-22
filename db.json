@@ -25,7 +25,21 @@
       "gasse": "3"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "NextRacks": [
+    {
+    "modul": "CM li",
+    "rack": "8331",
+    "gasse": "1"
+    },
+    {
+    "modul": "VA",
+    "rack": "8332",
+    "gasse": "2"
+    },
+    {
+    "modul": "HA",
+    "rack": "8333",
+    "gasse": "3"
+    }
+  ]
 }
