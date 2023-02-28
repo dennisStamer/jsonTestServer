@@ -45,7 +45,7 @@
   "FD_ScanRackResponse":
   {
      "Header": {
-        "MessageType": 0003,
+        "MessageType": "0003",
         "MessageCounter": 1,
         "Station": "VW00ABCDEF00X000",
         "Status": 0,
