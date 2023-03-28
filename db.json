@@ -64,7 +64,7 @@
                 "RackSprayNumber" : "",
                 "DestinationId" : "7889",
                 "RackStatus" : "RackStatus",
-                "SequenceViolation" : "0"
+                "SequenceViolation" : "1"
             },
             {
                 "Position" : 2,
