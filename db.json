@@ -79,7 +79,8 @@
         ],
         "Message" : "Message",
         "AcknowdledgeBy" : "2023-02-28 15:22:00"
-    },
+    }
+  },
     "FD_DestinationScanResponse":
     {
     	"Header": {
@@ -99,5 +100,5 @@
 		"Message": "<Message>"
 	    }
     }
-  }
+  
 }
