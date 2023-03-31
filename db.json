@@ -94,10 +94,11 @@
         "APIKey": "AK0004",
         "WorkOrderId": "<WorkOrderId>",
         "Racks": [{
-        "RackId": "<RackId>",
-        "RackStatus": "AssemblyPoint (18)"
+        		"RackId": "<RackId>",
+        		"RackStatus": "AssemblyPoint (18)",
+			"DestinationId" : "<DestinationID>"
 		}],
-		"Message": "<Message>"
+	"Message": "<Message>"
 	    }
     }
   
