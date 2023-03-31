@@ -79,6 +79,25 @@
         ],
         "Message" : "Message",
         "AcknowdledgeBy" : "2023-02-28 15:22:00"
+    },
+    "FD_DestinationScanResponse":
+    {
+    	"Header": {
+        "MessageType": "0004",
+        "MessageCounter": "1",
+        "Station": "VW00ABCDEF00X000",
+        "Status": "0",
+        "Timestamp": "2022-10-19 00:00:00"
+	  },
+	    "ResponseData": {
+        "APIKey": "AK0004",
+        "WorkOrderId": "<WorkOrderId>",
+        "Racks": [{
+        "RackId": "<RackId>",
+        "RackStatus": "AssemblyPoint (18)"
+		}],
+		"Message": "<Message>"
+	    }
     }
   }
 }
