@@ -116,14 +116,14 @@
             "RackRfId": "2020082108897A02105000F9",
             "RackNumber": "HA079",
             "RackNo": "6421",
-	    "SeqeunceBreak" : "0",
+	    "SequenceBreak" : "0",
 	    "SequenceBreakMessage" : null
           },
           {
             "RackRfId": "201506298896030001070244",
             "RackNumber": "HA045",
             "RackNo": "6559",
-	    "SeqeunceBreak" : "0",
+	    "SequenceBreak" : "0",
 	    "SequenceBreakMessage" : null
           }
         ]
