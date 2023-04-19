@@ -109,8 +109,6 @@
     "TimeStamp": "05.04.2023 15:22:01"
   },
   "ResponseData": {
-    "Job": [
-      {
         "WorkOrderId": "934a62362b58413891776636c97c6dda",
         "Result": "OK",
         "PartType": "HA",
@@ -130,8 +128,7 @@
 	    "SequenceBreakMessage" : null
           }
         ]
-      }
-    ],
+      ,
     "Message": null
   }
 }
