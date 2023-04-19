@@ -135,6 +135,43 @@
     ],
     "Message": null
   }
+},
+"LF_CkeckedTransportJobRacks":
+	{
+  "Header": {
+    "MessageType": "1",
+    "MessageCounter": "1",
+    "Station": "VW13HANLFH01T001",
+    "Status": "OK",
+    "APIKey": "5510",
+    "TimeStamp": "05.04.2023 15:22:01"
+  },
+  "ResponseData": {
+    "Job": [
+      {
+        "WorkOrderId": "934a62362b58413891776636c97c6dda",
+        "Result": "OK",
+        "PartType": "HA",
+        "Rack": [
+          {
+            "RackRfId": "2020082108897A02105000F9",
+            "RackNumber": "HA079",
+            "RackNo": "6421",
+	    "SeqeunceBreak" : "0",
+	    "SequenceBreakMessage" : null
+          },
+          {
+            "RackRfId": "201506298896030001070244",
+            "RackNumber": "HA045",
+            "RackNo": "6559",
+	    "SeqeunceBreak" : "0",
+	    "SequenceBreakMessage" : null
+          }
+        ]
+      }
+    ],
+    "Message": null
+  }
 }
 
   
