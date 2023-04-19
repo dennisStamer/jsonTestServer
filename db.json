@@ -111,7 +111,6 @@
   "ResponseData": {
         "WorkOrderId": "934a62362b58413891776636c97c6dda",
         "Result": "OK",
-        "PartType": "HA",
         "Rack": [
           {
             "RackRfId": "2020082108897A02105000F9",
