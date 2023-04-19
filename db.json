@@ -42,45 +42,7 @@
     "gasse": "3"
     }
   ],
-  "FD_ScanRackResponse":
-  {
-     "Header": {
-        "MessageType": "0003",
-        "MessageCounter": 1,
-        "Station": "VW00ABCDEF00X000",
-        "Status": 0,
-        "Timestamp":  "2022-10-19 00:00:00"
-    },
-    "ResponseData": {
-        "APIKey": "AK1003",
-        "WorkOrderId" : "<WorkOrderId>",
-        "WorkOrderStatus" : "Pending",
-        "Racks": [
-            {
-                "Position" : 1,
-                "RequestInput" : "RequestInput",
-                "RackID" : "123456789",
-                "RackNo" : "12345",
-                "RackSprayNumber" : "",
-                "DestinationId" : "7889",
-                "RackStatus" : "RackStatus",
-                "SequenceViolation" : "0"
-            },
-            {
-                "Position" : 2,
-                "RequestInput" : "RequestInput",
-                "RackID" : "12341232136789",
-                "RackNo" : "3698",
-                "RackSprayNumber" : "3333",
-                "DestinationId" : "4631123",
-                "RackStatus" : "RackStatus",
-                "SequenceViolation" : "0"
-            }
-        ],
-        "Message" : "Message",
-        "AcknowdledgeBy" : "2023-02-28 15:22:00"
-    }
-  },
+
     "FD_DestinationScanResponse":
     {
     	"Header": {
