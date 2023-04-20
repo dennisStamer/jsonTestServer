@@ -84,12 +84,12 @@
         "Rack": [
           {
             "RackRfId": "2020082108897A02105000F9",
-            "RackNumber": "HA079",
+            "RackSprayNumber": "HA079",
             "RackNo": "6421"
           },
           {
             "RackRfId": "201506298896030001070244",
-            "RackNumber": "HA045",
+            "RackSprayNumber": "HA045",
             "RackNo": "6559"
           }
         ]
@@ -114,14 +114,14 @@
         "Rack": [
           {
             "RackRfId": "2020082108897A02105000F9",
-            "RackNumber": "HA079",
+            "RackSprayNumber": "HA079",
             "RackNo": "6421",
 	    "SequenceBreak" : "0",
 	    "SequenceBreakMessage" : null
           },
           {
             "RackRfId": "201506298896030001070244",
-            "RackNumber": "HA045",
+            "RackSprayNumber": "HA045",
             "RackNo": "6559",
 	    "SequenceBreak" : "0",
 	    "SequenceBreakMessage" : null
