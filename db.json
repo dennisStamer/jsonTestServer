@@ -43,7 +43,7 @@
 		       "DestinationStorageSpaceName": "VW13HANLFL01L003",
 		       "Rack": [{
 				       "RackRfId": "2020082108897A021050000D",
-				       "RackNumber": "VA046",
+				       "RackSprayNumber": "VA046",
 				       "RackNo": "6629",
 				       "SequenceBreak": "0",
 				       "SequenceBreakMessage": null
