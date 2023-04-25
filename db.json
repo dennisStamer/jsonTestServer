@@ -25,23 +25,33 @@
       "gasse": "3"
     }
   ],
-  "NextRacks": [
-    {
-    "modul": "CM li",
-    "rack": "8331",
-    "gasse": "1"
-    },
-    {
-    "modul": "VA",
-    "rack": "8332",
-    "gasse": "2"
-    },
-    {
-    "modul": "HA",
-    "rack": "8333",
-    "gasse": "3"
-    }
-  ],
+  "FD_TransportJobResponse": 
+   {
+	 "Header": {
+	       "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5520",
+	       "TimeStamp": "24.04.2023 15:40:14"
+                },
+	"ResponseData": {
+		       "WorkOrderId": "274acc26c8f0454096e9346de003b83a",
+		       "WorkOrderStatus": "Requested",
+		       "AcknowledgeBy": "24.04.2023 15:41:14",
+		       "CompleteBy": "27.03.2023 14:00:00",
+		       "DestinationStorageSpaceName": "VW13HANLFL01L003",
+		       "Rack": [{
+				       "RackRfId": "2020082108897A021050000D",
+				       "RackNumber": "VA046",
+				       "RackNo": "6629",
+				       "SequenceBreak": "0",
+				       "SequenceBreakMessage": null
+		       }],
+		       "Message": null
+                }
+  
+   },
 
     "FD_DestinationScanResponse":
     {
