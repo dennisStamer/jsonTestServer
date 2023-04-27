@@ -133,8 +133,8 @@
             "RackRfId": "201506298896030001070244",
             "RackSprayNumber": "HA045",
             "RackNo": "6559",
-	    "SequenceBreak" : "1",
-	    "SequenceBreakMessage" : "Ich bin ein Sequenzbruch!"
+	    "SequenceBreak" : "0",
+	    "SequenceBreakMessage" : null
           }
         ]
       ,
