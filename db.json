@@ -45,8 +45,8 @@
 				       "RackRfId": "2020082108897A021050000D",
 				       "RackSprayNumber": "VA046",
 				       "RackNo": "6629",
-				       "SequenceBreak": "0",
-				       "SequenceBreakMessage": null
+				       "SequenceBreak": "1",
+				       "SequenceBreakMessage": "ich bin ein toller Sequenzbruch!"
 		       }],
 		       "Message": null
                 }
