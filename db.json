@@ -47,6 +47,13 @@
 				       "RackNo": "6629",
 				       "SequenceBreak": "1",
 				       "SequenceBreakMessage": "ich bin ein toller Sequenzbruch!"
+		       },
+				{
+				       "RackRfId": "2020082108897A021050000E",
+				       "RackSprayNumber": "VA047",
+				       "RackNo": "6630",
+				       "SequenceBreak": "0",
+				       "SequenceBreakMessage": null
 		       }],
 		       "Message": null
                 }
