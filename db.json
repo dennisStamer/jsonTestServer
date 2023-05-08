@@ -43,15 +43,11 @@
         "Status": "0",
         "Timestamp": "2022-10-19 00:00:00"
 	  },
-	    "ResponseData": {
-        "APIKey": "AK0004",
-        "WorkOrderId": "<WorkOrderId>",
-        "Racks": [{
-        		"RackId": "<RackId>",
-        		"RackStatus": "AssemblyPoint (18)",
-			"DestinationId" : "<DestinationID>"
-		}],
-	"Message": "<Message>"
+	"ResponseData": {
+        	"WorkOrderId": "<WorkOrderId>",
+		"WorkOrderStatus" : "InProgress",
+		"DestinationStorageSpaceMatch" : "True",
+		"Message": "<Message>"
 	    }
     },
   "LF_TransportJobs":
