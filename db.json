@@ -34,23 +34,7 @@
   
    },
 
-    "FD_DestinationScanResponse":
-    {
-    	"Header": {
-        "MessageType": "0004",
-        "MessageCounter": "1",
-        "Station": "VW00ABCDEF00X000",
-        "Status": "0",
-        "Timestamp": "2022-10-19 00:00:00"
-	  },
-	"ResponseData": {
-        	"WorkOrderId": "<WorkOrderId>",
-		"WorkOrderStatus" : "InProgress",
-		"DestinationStorageSpaceMatch" : "True",
-		"Message": "<Message>"
-	    }
-    },
-  "LF_TransportJobs":
+"LF_TransportJobs":
 	{
   "Header": {
     "MessageType": "1",
@@ -80,7 +64,26 @@
             "RackNo": "6559"
           }
         ]
-      }
+      },
+      {
+        "WorkOrderId": "934a62362b58413891776636c97c6ddb",
+        "WorkOrderStatus": "Created",
+        "PartType": "VA",
+        "SourceStorageSpaceName": "VW13HANLFL01L001",
+        "DestinationStorageSpaceName": "VW13HANLFL01L020",
+        "Rack": [
+          {
+            "RackRfId": "2020082108897A02105000F9",
+            "RackSprayNumber": "HA089",
+            "RackNo": "6401"
+          },
+          {
+            "RackRfId": "201506298896030001070244",
+            "RackSprayNumber": "HA090",
+            "RackNo": "6402"
+          }
+        ]
+      }  
     ],
     "Message": null
   }
