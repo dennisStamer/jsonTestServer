@@ -40,13 +40,13 @@
         "MessageType": "0004",
         "MessageCounter": "1",
         "Station": "VW00ABCDEF00X000",
-        "Status": "0",
+        "Status": "DestinationStorageSpaceMismatch",
         "Timestamp": "2022-10-19 00:00:00"
 	  },
 	"ResponseData": {
         	"WorkOrderId": "<WorkOrderId>",
 		"WorkOrderStatus" : "InProgress",
-		"DestinationStorageSpaceMatch" : "True",
+		"DestinationStorageSpaceMatch" : "False",
 		"Message": "<Message>"
 	    }
     },
