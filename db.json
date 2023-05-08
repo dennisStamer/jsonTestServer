@@ -120,7 +120,25 @@
       ,
     "Message": null
   }
-}
+},
+	"TakeTransportResponse":	
+	{
+  	"Header": {
+	    "MessageType": "1",
+	    "MessageCounter": "1",
+	    "Station": "VW13HANLFH01T001",
+	    "Status": "OK",
+	    "APIKey": "5510",
+	    "TimeStamp": "05.04.2023 15:22:01"
+  	},
+	"ResponseData": 
+		{
+			"WorkOrderId":"6da89319291545d8bd1919804976d04b",
+			"WorkOrderStatus":"Taken",
+			"CompleteBy":"05.05.2023 16:55:12",
+			"Message":null
+		}
+	}
 }
   
 
