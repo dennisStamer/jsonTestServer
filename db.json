@@ -17,14 +17,14 @@
 		       "DestinationStorageSpaceName": "VW13HANLFL01L003",
 		       "Rack": [{
 				       "RackRfId": "2020082108897A021050000D",
-				       "RackSprayNumber": "VA046",
+				       "RackSprayNumber": "VA050",
 				       "RackNo": "6629",
 				       "SequenceBreak": "0",
 				       "SequenceBreakMessage": null
 		       },
 				{
 				       "RackRfId": "2020082108897A021050000E",
-				       "RackSprayNumber": "VA047",
+				       "RackSprayNumber": "VA051",
 				       "RackNo": "6630",
 				       "SequenceBreak": "0",
 				       "SequenceBreakMessage": null
@@ -40,13 +40,13 @@
         "MessageType": "0004",
         "MessageCounter": "1",
         "Station": "VW00ABCDEF00X000",
-        "Status": "DestinationStorageSpaceMismatch",
+        "Status": "0",
         "Timestamp": "2022-10-19 00:00:00"
 	  },
 	"ResponseData": {
         	"WorkOrderId": "<WorkOrderId>",
 		"WorkOrderStatus" : "InProgress",
-		"DestinationStorageSpaceMatch" : "False",
+		"DestinationStorageSpaceMatch" : "True",
 		"Message": "<Message>"
 	    }
     },
