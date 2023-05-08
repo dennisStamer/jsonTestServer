@@ -23,11 +23,11 @@
 				       "SequenceBreakMessage": null
 		       },
 				{
-				       "RackRfId": "2020082108897A021050000E",
+				       "RackRfId": "201506298896030001070217",
 				       "RackSprayNumber": "VA051",
 				       "RackNo": "6630",
-				       "SequenceBreak": "0",
-				       "SequenceBreakMessage": null
+				       "SequenceBreak": "1",
+				       "SequenceBreakMessage": "Ich bin ein Sequenzbruch, das is schade! "
 		       }],
 		       "Message": null
                 }
