@@ -113,8 +113,15 @@
             "RackRfId": "201506298896030001070244",
             "RackSprayNumber": "HA071",
             "RackNo": "6421",
-	    "SequenceBreak" : "0",
-	    "SequenceBreakMessage" : null
+	    "SequenceBreak" : "1",
+	    "SequenceBreakMessage" : "Ich bin ein Sequnzbruch und das tut mir leid!"
+          },
+	 {
+            "RackRfId": "201506298896030001070244",
+            "RackSprayNumber": "HA071",
+            "RackNo": "6421",
+	    "SequenceBreak" : "2",
+	    "SequenceBreakMessage" : "Ich kann noch geliefert werden!"
           }
         ]
       ,
