@@ -1,5 +1,5 @@
 {
-  "FD_TransportJobResponse": 
+  "AvailableEmptyRackResponse": 
    {
 	 "Header": {
 	       "MessageType": "0002",
@@ -10,142 +10,18 @@
 	       "TimeStamp": "24.04.2023 15:40:14"
                 },
 	"ResponseData": {
-		       "WorkOrderId": "274acc26c8f0454096e9346de003b83a",
-		       "WorkOrderStatus": "Requested",
-		       "AcknowledgeBy": "24.04.2023 15:41:14",
-		       "CompleteBy": "27.03.2023 14:00:00",
-		       "DestinationStorageSpaceName": "VW13HANLFL01L003",
-		       "Rack": [{
-				       "RackRfId": "2020082108897A021050000D",
-				       "RackSprayNumber": "VA050",
-				       "RackNo": "6629",
-				       "SequenceBreak": "0",
-				       "SequenceBreakMessage": null
-		       },
-				{
-				       "RackRfId": "201506298896030001070217",
-				       "RackSprayNumber": "VA051",
-				       "RackNo": "6630",
-				       "SequenceBreak": "1",
-				       "SequenceBreakMessage": "Ich bin ein Sequenzbruch, das is schade! "
-		       }],
-		       "Message": null
+		       	    "Site": "<Customer>",
+			    "AvailableEmptyRacksCounter": [
+			      {
+			        "PartType": "<HA, VA or LG>",
+			        "Counter": "<Quantity of empties>"
+			      }
+			    ],
+			    "Message": "<Message>"
+		    
                 }
   
-   },
-
-"LF_TransportJobs":
-	{
-  "Header": {
-    "MessageType": "1",
-    "MessageCounter": "1",
-    "Station": "VW13HANLFH01T001",
-    "Status": "OK",
-    "APIKey": "5510",
-    "TimeStamp": "05.04.2023 15:22:01"
-  },
-  "ResponseData": {
-    "Job": [
-      {
-        "WorkOrderId": "934a62362b58413891776636c97c6dda",
-        "WorkOrderStatus": "Created",
-        "PartType": "HA",
-        "SourceStorageSpaceName": "VW13HANLFL01L001",
-        "DestinationStorageSpaceName": "VW13HANLFL01L020",
-        "Rack": [
-          {
-            "RackRfId": "2020082108897A02105000F9",
-            "RackSprayNumber": "HA079",
-            "RackNo": "6421"
-          },
-          {
-            "RackRfId": "201506298896030001070244",
-            "RackSprayNumber": "HA045",
-            "RackNo": "6559"
-          }
-        ]
-      },
-      {
-        "WorkOrderId": "934a62362b58413891776636c97c6ddb",
-        "WorkOrderStatus": "Created",
-        "PartType": "VA",
-        "SourceStorageSpaceName": "VW13HANLFL01L001",
-        "DestinationStorageSpaceName": "VW13HANLFL01L020",
-        "Rack": [
-          {
-            "RackRfId": "2020082108897A02105000F9",
-            "RackSprayNumber": "HA089",
-            "RackNo": "6401"
-          },
-          {
-            "RackRfId": "201506298896030001070244",
-            "RackSprayNumber": "HA090",
-            "RackNo": "6402"
-          }
-        ]
-      }  
-    ],
-    "Message": null
-  }
-},
-"LF_CkeckedTransportJobRacks":
-	{
-  "Header": {
-    "MessageType": "1",
-    "MessageCounter": "1",
-    "Station": "VW13HANLFH01T001",
-    "Status": "OK",
-    "APIKey": "5510",
-    "TimeStamp": "05.04.2023 15:22:01"
-  },
-  "ResponseData": {
-        "WorkOrderId": "934a62362b58413891776636c97c6dda",
-        "Result": "OK",
-        "Rack": [
-          {
-            "RackRfId": "2020082108897A02105000F9",
-            "RackSprayNumber": "HA070",
-            "RackNo": "6420",
-	    "SequenceBreak" : "0",
-	    "SequenceBreakMessage" : null
-          },
-          {
-            "RackRfId": "201506298896030001070244",
-            "RackSprayNumber": "HA071",
-            "RackNo": "6421",
-	    "SequenceBreak" : "1",
-	    "SequenceBreakMessage" : "Ich bin ein Sequnzbruch und das tut mir leid!"
-          },
-	 {
-            "RackRfId": "201506298896030001070244",
-            "RackSprayNumber": "HA071",
-            "RackNo": "6421",
-	    "SequenceBreak" : "2",
-	    "SequenceBreakMessage" : "Ich kann noch geliefert werden!"
-          }
-        ]
-      ,
-    "Message": null
-  }
-},
-	"TakeTransportResponse":	
-	{
-  	"Header": {
-	    "MessageType": "1",
-	    "MessageCounter": "1",
-	    "Station": "VW13HANLFH01T001",
-	    "Status": "OK",
-	    "APIKey": "5510",
-	    "TimeStamp": "05.04.2023 15:22:01"
-  	},
-	"ResponseData": 
-		{
-			"WorkOrderId":"6da89319291545d8bd1919804976d04b",
-			"WorkOrderStatus":"Taken",
-			"CompleteBy":"05.05.2023 16:55:12",
-			"Message":null
-		}
-	}
+   }
 }
   
 
