@@ -13,9 +13,13 @@
 		       	    "Site": "<Customer>",
 			    "AvailableEmptyRacksCounter": [
 			      {
-			        "PartType": "<HA, VA or LG>",
-			        "Counter": "<Quantity of empties>"
-			      }
+			        "PartType": "HA",
+			        "Counter": "12"
+			      },
+				    {
+					 "PartType": "VA",
+			        	  "Counter": "12"   
+				    }
 			    ],
 			    "Message": "<Message>"
 		    
