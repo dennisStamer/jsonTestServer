@@ -17,8 +17,12 @@
 			        "Counter": "12"
 			      },
 				    {
-					 "PartType": "VA",
+					 "PartType": "HA",
 			        	  "Counter": "12"   
+				    },
+				     {
+					 "PartType": "LG",
+			        	  "Counter": "10"   
 				    }
 			    ],
 			    "Message": "<Message>"
