@@ -23,10 +23,6 @@
 				     {
 					 "PartType": "LG",
 			        	  "Counter": "10"   
-				    },
-				     {
-					 "PartType": "AG",
-			        	  "Counter": "10"   
 				    }
 			    ],
 			    "Message": "<Message>"
