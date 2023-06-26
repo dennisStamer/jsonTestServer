@@ -78,7 +78,7 @@
 			    "TruckPlate":              "<Truck plate number (optional)>"
 			    "TruckStatus":             "<Plate number status>",
 			    "TruckDeparture":          "<Timestamp departure of truck>",
-			    "Message":                 "<Message>		
+			    "Message":                 "<Message>"		
 		    
                 }
   
