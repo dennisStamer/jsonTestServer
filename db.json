@@ -61,7 +61,28 @@
 		    
                 }
   
-   }
+   },
+
+  "CheckTrailerIdResponse": 
+   {
+	 "Header": {
+	       "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5104",
+	       "TimeStamp": "24.04.2023 15:40:14"
+                },
+		"ResponseData": {
+		       	    "TruckRfid":               "12346789",
+			    "TruckPlate":              "<Truck plate number (optional)>"
+			    "TruckStatus":             "<Plate number status>",
+			    "TruckDeparture":          "<Timestamp departure of truck>",
+			    "Message":                 "<Message>		
+		    
+                }
+  
+   },
 }
   
 
