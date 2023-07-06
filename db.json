@@ -17,8 +17,8 @@
 			        "Counter": "12"
 			      },
 				    {
-					 "PartType": "HA",
-			        	  "Counter": "12"   
+					 "PartType": "VA",
+			        	  "Counter": "8"   
 				    },
 				     {
 					 "PartType": "LG",
@@ -49,8 +49,8 @@
 			        "RackNo": "12"
 			      },
 				    {
-					 "PartType": "HA",
-			        	  "RackNo": "12"   
+					 "PartType": "VA",
+			        	  "RackNo": "8"   
 				    },
 				     {
 					 "PartType": "LG",
