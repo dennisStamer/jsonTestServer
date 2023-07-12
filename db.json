@@ -128,6 +128,18 @@
                     "CustomerSite":         "",
                     "SequenceBreak":        "",
                     "RackErrorText":        ""
+                },
+		{
+                    "RackID":               "2020070108897A022",
+                    "PartType":             "HA",
+                    "SequenceRange":        "",
+                    "RackPosition":         "",
+                    "Antenna":              "",
+                    "RackLoadingStatus":    "",
+                    "Blacklist":            "",
+                    "CustomerSite":         "",
+                    "SequenceBreak":        "",
+                    "RackErrorText":        ""
                 }]
   }
  }
