@@ -100,7 +100,26 @@
 		    
                 }
   
-   }
+   },
+ "Fulls_GatheredHubResponse":
+	    {
+        "TruckRfid":    "1234",
+        "TruckPlate":   "",
+        "Message":      "",
+        "Rack":
+                [{
+                    "RackID":               "2020070108897A021",
+                    "PartType":             "VA",
+                    "SequenceRange":        "",
+                    "RackPosition":         ""
+                    "Antenna":              "",
+                    "RackLoadingStatus":    "",
+                    "Blacklist":            "",
+                    "CustomerSite":         "",
+                    "SequenceBreak":        "",
+                    "RackErrorText":        ""
+                }]
+ }
 }
   
 
