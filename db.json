@@ -103,6 +103,16 @@
    },
  "Fulls_GatheredHubResponse":
 	    {
+	"Header":
+		    {
+			    "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5103",
+	       "TimeStamp": "24.04.2023 15:40:14"
+		    },
+  "ResponseData" : {
         "TruckRfid":    "1234",
         "TruckPlate":   "",
         "Message":      "",
@@ -119,6 +129,7 @@
                     "SequenceBreak":        "",
                     "RackErrorText":        ""
                 }]
+  }
  }
 }
   
