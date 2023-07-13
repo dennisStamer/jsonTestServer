@@ -110,7 +110,23 @@
                     "RackErrorText":        ""
                 }]
   }
- }
+ },
+ "CloseTrailerResponse" :
+	{
+	"Header": {
+		"MessageType": "0001",
+		"MessageCounter": "1",
+		"Station": "VW00ABCDEF00X000",
+		"Status": "0",
+		"APIKey": "5621",
+		"Timestamp": "2022-10-19 00:00:00"
+	},
+	"ResponseData": {
+		"TruckRfid": "<RFID>",
+		"TruckPlate": "<Truck plate number (optional)>",
+		"Message": "<Message>"
+	}
+}
 }
   
 
