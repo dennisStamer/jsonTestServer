@@ -1,36 +1,4 @@
 {
-  "AvailableEmptyRackResponse": 
-   {
-	 "Header": {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5520",
-	       "TimeStamp": "24.04.2023 15:40:14"
-                },
-	"ResponseData": {
-		       	    "Site": "<Customer>",
-			    "AvailableEmptyRacksCounter": [
-			      {
-			        "PartType": "HA",
-			        "Counter": "12"
-			      },
-				    {
-					 "PartType": "VA",
-			        	  "Counter": "8"   
-				    },
-				     {
-					 "PartType": "LG",
-			        	  "Counter": "10"   
-				    }
-			    ],
-			    "Message": "<Message>"
-		    
-                }
-  
-   },
-
 "LastLoadedRackResponse": 
    {
 	 "Header": {
