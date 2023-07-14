@@ -105,8 +105,8 @@
                     "Antenna":              "",
                     "RackLoadingStatus":    "",
                     "Blacklist":            "",
-                    "CustomerSite":         "2",
-                    "SequenceBreak":        "",
+                    "CustomerSite":         "",
+                    "SequenceBreak":        "1",
                     "RackErrorText":        ""
                 }]
   }
