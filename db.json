@@ -40,5 +40,31 @@
                     "RackErrorText":        ""
                 }]
   }
- }
+ },
+	 "FD_TransportJobResponse":
+	    {
+	"Header":
+		    {
+			    "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5520",
+	       "TimeStamp": "24.04.2023 15:40:14"
+		    },
+  "ResponseData" : {
+	       "WorkOrderId": "03e6a85453034776953b0e5b3b07352d",
+	       "WorkOrderStatus": "Requested",
+	       "AcknowledgeBy": "13.04.2023 13:56:56",
+	       "CompleteBy": "Not yet supported",
+	       "DestinationStorageSpaceName": "VW13HANLFL01L003",
+	       "Rack": [{
+			       "RackRfId": "2020082108897A021050000D",
+			       "RackNumber": "VA046",
+			       "RackNo": "6629",
+			       "SequenceBreak": null
+	       }],
+	       "Message": null
+        }
+  }
 }
