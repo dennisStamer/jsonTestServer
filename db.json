@@ -56,11 +56,11 @@
 	       "WorkOrderId": "03e6a85453034776953b0e5b3b07352d",
 	       "WorkOrderStatus": "Requested",
 	       "AcknowledgeBy": "13.04.2023 13:56:56",
-	       "CompleteBy": "Not yet supported",
+	       "CompleteBy": "13.04.2023 13:56:56",
 	       "DestinationStorageSpaceName": "VW13HANLFL01L003",
 	       "Rack": [{
 			       "RackRfId": "2020082108897A021050000D",
-			       "RackNumber": "VA046",
+			       "RackSprayNumber": "VA046",
 			       "RackNo": "6629",
 			       "SequenceBreak": null
 	       }],
