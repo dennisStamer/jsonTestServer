@@ -1,87 +1,48 @@
 {
- "Fulls_GatheredHubResponse":
-	    {
-	"Header":
-		    {
-			    "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5103",
-	       "TimeStamp": "24.04.2023 15:40:14"
-		    },
-  "ResponseData" : {
-        "TruckRfid":    "1234",
-        "TruckPlate":   "",
-        "Message":      "",
-        "Rack":
-                [{
-                    "RackID":               "2020070108897A021",
-                    "PartType":             "VA",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "",
-                    "SequenceBreak":        "",
-                    "RackErrorText":        ""
-                },
-		{
-                    "RackID":               "2020070108897A022",
-                    "PartType":             "HA",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "2",
-                    "SequenceBreak":        "",
-                    "RackErrorText":        ""
-                }]
-  }
- },
-	 "FD_TransportJobResponse":
-	    {
-	"Header":
-		    {
-			    "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5520",
-	       "TimeStamp": "24.04.2023 15:40:14"
-		    },
-  "ResponseData" : {
-	       "WorkOrderId": "03e6a85453034776953b0e5b3b07352d",
-	       "WorkOrderStatus": "Requested",
-	       "AcknowledgeBy": "13.04.2023 13:56:56",
-	       "CompleteBy": "13.04.2023 13:56:56",
-	       "DestinationStorageSpaceName": "VW13HANLFL01L003",
-	       "Rack": [{
-			       "RackRfId": "2020082108897A021050000D",
-			       "RackSprayNumber": "VA046",
-			       "RackNo": "6629",
-			       "SequenceBreak": null
-	       }],
-	       "Message": null
-        }
+ "LF_TransportJobs" :
+	{
+		 "Header": {
+    "MessageType": "1",
+    "MessageCounter": "1",
+    "Station": "VW13HANLFH01T001",
+    "Status": "OK",
+    "APIKey": "5501",
+    "TimeStamp": "19.07.2023 15:27:44"
   },
-   "StockRackResponse":
-	    {
-	"Header":
-		    {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5523",
-	       "TimeStamp": "24.04.2023 15:40:14"
-		    },
-  "ResponseData" : {
-	       "WorkOrderId": "03e6a85453034776953b0e5b3b07352d",
-	       "WorkOrderStatus": "Finished",
-	       "Message": null
-        }
+  "ResponseData": {
+    "Job": [
+      {
+        "WorkOrderId": "dc6b5204a85e45b9aeef87bb91be2588",
+        "WorkOrderStatus": "Created",
+        "PartType": "LG",
+        "SourceStorageSpaceName": "VW13HANLFL01L005",
+        "DestinationStorageSpaceName": "VW13HANLFL01L018",
+        "CompleteBy": "05.05.2023 17:23:16",
+        "Rack": [
+          {
+            "RackRfId": "2021121508897A021A10019B",
+            "RackSprayNumber": "LG047",
+            "RackNo": "4087"
+          }
+        ]
+      },
+      {
+        "WorkOrderId": "57c12b596b334d938330e098b95511a1",
+        "WorkOrderStatus": "Created",
+        "PartType": "LG",
+        "SourceStorageSpaceName": "VW13HANLFL01L006",
+        "DestinationStorageSpaceName": "VW13HANLFL01L018",
+        "CompleteBy": "05.05.2023 17:29:56",
+        "Rack": [
+          {
+            "RackRfId": "2021121508897A021A1001A6",
+            "RackSprayNumber": "LG034",
+            "RackNo": "4089"
+          }
+        ]
+      }
+    ],
+    "Message": null
   }
+ }
 }
