@@ -11,15 +11,15 @@
 		"ResponseData": {
 			"Site": "<Customer>",
 			"AvailableEmptyRacksCounter": [{
-					"PartType": "HA",
+					"PartType": "21",
 					"Counter": "12"
 				},
 				{
-					"PartType": "VA",
+					"PartType": "22",
 					"Counter": "8"
 				},
 				{
-					"PartType": "LG",
+					"PartType": "25",
 					"Counter": "10"
 				}
 			],
