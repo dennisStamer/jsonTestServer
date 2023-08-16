@@ -10,7 +10,7 @@
 		},
 		"ResponseData": {
 			"Site": "<Customer>",
-			"Counter": [{
+			"AvailableEmptyRacksCounter": [{
 					"PartType": "HA",
 					"Counter": "12"
 				},
