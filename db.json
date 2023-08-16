@@ -42,9 +42,9 @@
 	       "TimeStamp": "24.04.2023 15:40:14"
                 },
 		"ResponseData": {
-		       	    "TruckRfid":               "12346789",
-			    "TruckPlate":              "<Truck plate number>",
-			    "TruckStatus":             "<Plate number status>",
+		       	    "TruckRfid":               "",
+			    "TruckPlate":              "1234",
+			    "TruckStatus":             "0",
 			    "TruckDeparture":          "<Timestamp departure of truck>",
 			    "Message":                 "<Message>"		
 		    
