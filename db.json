@@ -1,57 +1,53 @@
 {
-"LastLoadedRackResponse": 
-   {
-	 "Header": {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5601",
-	       "TimeStamp": "24.04.2023 15:40:14"
-                },
-	"ResponseData": {
-		       	    "Site": "<Customer>",
-			    "LastLoadedRack": [
-			      {
-			        "PartType": "21",
-			        "RackNo": ""
-			      },
-				    {
-					 "PartType": "22",
-			        	  "RackNo": "8"   
-				    },
-				     {
-					 "PartType": "25",
-			        	  "RackNo": "10"   
-				    }
-			    ],
-			    "Message": "<Message>"
-		    
-                }
-  
-   },
-
-  "CheckTrailerIdResponse": 
-   {
-	 "Header": {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5104",
-	       "TimeStamp": "24.04.2023 15:40:14"
-                },
+	"AvailableEmptyRackResponse": {
+		"Header": {
+			"MessageType": "0002",
+			"MessageCounter": "1",
+			"Station": "VW13HANLFH01T001",
+			"Status": "OK",
+			"APIKey": "5520",
+			"TimeStamp": "24.04.2023 15:40:14"
+		},
 		"ResponseData": {
-		       	    "TruckRfid":               "",
-			    "TruckPlate":              "1234",
-			    "TruckStatus":             "0",
-			    "TruckDeparture":          "<Timestamp departure of truck>",
-			    "Message":                 "<Message>"		
-		    
-                }
-  
-   },
-	 "CreateTrailerIdResponse": 
+			"Site": "<Customer>",
+			"AvailableEmptyRacksCounter": [{
+					"PartType": "HA",
+					"Counter": "12"
+				},
+				{
+					"PartType": "VA",
+					"Counter": "8"
+				},
+				{
+					"PartType": "LG",
+					"Counter": "10"
+				}
+			],
+			"Message": "<Message>"
+
+		}
+
+	},
+	"CheckTrailerIdResponse": {
+		"Header": {
+			"MessageType": "0002",
+			"MessageCounter": "1",
+			"Station": "VW13HANLFH01T001",
+			"Status": "OK",
+			"APIKey": "5104",
+			"TimeStamp": "24.04.2023 15:40:14"
+		},
+		"ResponseData": {
+			"TruckRfid": "12346789",
+			"TruckPlate": "<Truck plate number>",
+			"TruckStatus": "<Plate number status>",
+			"TruckDeparture": "<Timestamp departure of truck>",
+			"Message": "<Message>"
+
+		}
+
+	},
+	"CreateTrailerIdResponse": 
    {
 	 "Header": {
 	       "MessageType": "0002",
@@ -68,65 +64,5 @@
 		    
                 }
   
-   },
- "Fulls_GatheredHubResponse":
-	    {
-	"Header":
-		    {
-			    "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5103",
-	       "TimeStamp": "24.04.2023 15:40:14"
-		    },
-  "ResponseData" : {
-        "TruckRfid":    "1234",
-        "TruckPlate":   "",
-        "Message":      "",
-        "Rack":
-                [{
-                    "RackID":               "2020070108897A021",
-                    "PartType":             "VA",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "",
-                    "SequenceBreak":        "",
-                    "RackErrorText":        ""
-                },
-		{
-                    "RackID":               "2020070108897A022",
-                    "PartType":             "HA",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "2",
-                    "SequenceBreak":        "",
-                    "RackErrorText":        ""
-                }]
-  }
- },
- "CloseTrailerResponse" :
-	{
-	"Header": {
-		"MessageType": "0001",
-		"MessageCounter": "1",
-		"Station": "VW00ABCDEF00X000",
-		"Status": "0",
-		"APIKey": "5621",
-		"Timestamp": "2022-10-19 00:00:00"
-	},
-	"ResponseData": {
-		"TruckRfid": "<RFID>",
-		"TruckPlate": "<Truck plate number (optional)>",
-		"Message": "<Message>"
-	}
+   }
 }
-}
-  
-
