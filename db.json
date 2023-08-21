@@ -44,7 +44,7 @@
 		"ResponseData": {
 		       	    "TruckRfid":               "12346789",
 			    "TruckPlate":              "EMD DU 1000>",
-			    "TruckStatus":             "0",
+			    "TruckStatus":             "1",
 			    "TruckDeparture":          "<Timestamp departure of truck>",
 			    "Message":                 "<Message>"		
 		    
