@@ -85,30 +85,7 @@
         "TruckPlate":   "",
         "Message":      "",
         "Rack":
-                [{
-                    "RackID":               "2020070108897A021",
-                    "PartType":             "VA",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "",
-                    "SequenceBreak":        "",
-                    "RackErrorText":        ""
-                },
-		{
-                    "RackID":               "2020070108897A022",
-                    "PartType":             "HA",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "2",
-                    "SequenceBreak":        "",
-                    "RackErrorText":        ""
-                }]
+                []
   }
  },
  "CloseTrailerResponse" :
