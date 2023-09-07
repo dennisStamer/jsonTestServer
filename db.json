@@ -21,6 +21,10 @@
 				{
 					"PartType": "LG",
 					"Counter": "10"
+				},
+				{
+					"PartType": "CML",
+					"Counter": "10"
 				}
 			],
 			"Message": "<Message>"
