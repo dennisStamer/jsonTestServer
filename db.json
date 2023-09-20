@@ -86,7 +86,7 @@
         "Message":      "",
         "Rack":
                 [{
-                    "RackID":               "2020070108897A021",
+                    "RackID":               "2020070108897A0210000000",
                     "PartType":             "VA",
                     "SequenceRange":        "",
                     "RackPosition":         "",
@@ -98,7 +98,31 @@
                     "RackErrorText":        ""
                 },
 		{
-                    "RackID":               "2020070108897A022",
+                    "RackID":               "2020070108897A02200000000",
+                    "PartType":             "HA",
+                    "SequenceRange":        "",
+                    "RackPosition":         "",
+                    "Antenna":              "",
+                    "RackLoadingStatus":    "",
+                    "Blacklist":            "",
+                    "CustomerSite":         "2",
+                    "SequenceBreak":        "",
+                    "RackErrorText":        ""
+                },
+		{
+                    "RackID":               "2020070108897A022233223423433",
+                    "PartType":             "HA",
+                    "SequenceRange":        "",
+                    "RackPosition":         "",
+                    "Antenna":              "",
+                    "RackLoadingStatus":    "",
+                    "Blacklist":            "",
+                    "CustomerSite":         "2",
+                    "SequenceBreak":        "",
+                    "RackErrorText":        ""
+                },
+		{
+                    "RackID":               "2020070108897A022233223423433",
                     "PartType":             "HA",
                     "SequenceRange":        "",
                     "RackPosition":         "",
