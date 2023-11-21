@@ -23,6 +23,14 @@
 				     {
 					 "PartType": "25",
 			        	  "RackNo": "10"   
+				    },
+				     {
+					 "PartType": "23",
+			        	  "RackNo": "5"   
+				    },
+				     {
+					 "PartType": "24",
+			        	  "RackNo": "11"   
 				    }
 			    ],
 			    "Message": "<Message>"
