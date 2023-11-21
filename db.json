@@ -116,6 +116,30 @@
                     "CustomerSite":         "2",
                     "SequenceBreak":        "",
                     "RackErrorText":        ""
+                },
+		{
+                    "RackID":               "2020070108897A025",
+                    "PartType":             "CML",
+                    "SequenceRange":        "",
+                    "RackPosition":         "",
+                    "Antenna":              "",
+                    "RackLoadingStatus":    "",
+                    "Blacklist":            "",
+                    "CustomerSite":         "",
+                    "SequenceBreak":        "",
+                    "RackErrorText":        ""
+                },
+		{
+                    "RackID":               "2020070108897A026",
+                    "PartType":             "CMR",
+                    "SequenceRange":        "",
+                    "RackPosition":         "",
+                    "Antenna":              "",
+                    "RackLoadingStatus":    "",
+                    "Blacklist":            "",
+                    "CustomerSite":         "",
+                    "SequenceBreak":        "",
+                    "RackErrorText":        ""
                 }]
   }
  },
