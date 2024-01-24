@@ -1,132 +1,342 @@
 {
-"LastLoadedRackResponse": 
-   {
-	 "Header": {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5601",
-	       "TimeStamp": "24.04.2023 15:40:14"
-                },
-	"ResponseData": {
-		       	    "Site": "<Customer>",
-			    "LastLoadedRack": [
-			      {
-			        "PartType": "21",
-			        "RackNo": "12"
-			      },
-				    {
-					 "PartType": "22",
-			        	  "RackNo": "8"   
-				    },
-				     {
-					 "PartType": "25",
-			        	  "RackNo": "10"   
-				    }
-			    ],
-			    "Message": "<Message>"
-		    
-                }
-  
-   },
+ "CornerModuleJobData":
+	[{
+		"RackSeq": "0010",
+		"ML": "1",
+		"PartList" : 
+			[
+				{
+					"Fach" : "1",
+					"SeqNr": "1001",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "2",
+					"SeqNr": "1002",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "3",
+					"SeqNr": "1003",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "4",
+					"SeqNr": "1004",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "5",
+					"SeqNr": "1005",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "6",
+					"SeqNr": "1006",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "7",
+					"SeqNr": "1007",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "8",
+					"SeqNr": "1008",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "9",
+					"SeqNr": "1009",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "10",
+					"SeqNr": "1010",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "11",
+					"SeqNr": "1011",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "12",
+					"SeqNr": "1012",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "13",
+					"SeqNr": "1013",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "14",
+					"SeqNr": "1014",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "15",
+					"SeqNr": "1015",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "16",
+					"SeqNr": "1016",
+					"Artikel": "611 VWAACKXX"
+				},
 
-  "CheckTrailerIdResponse": 
-   {
-	 "Header": {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5104",
-	       "TimeStamp": "24.04.2023 15:40:14"
-                },
-		"ResponseData": {
-		       	    "TruckRfid":               "12346789",
-			    "TruckPlate":              "<Truck plate number>",
-			    "TruckStatus":             "<Plate number status>",
-			    "TruckDeparture":          "<Timestamp departure of truck>",
-			    "Message":                 "<Message>"		
-		    
-                }
-  
-   },
-	 "CreateTrailerIdResponse": 
-   {
-	 "Header": {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5010",
-	       "TimeStamp": "24.04.2023 15:40:14"
-                },
-		"ResponseData": {
-		       	    	 "RfId":          "<RFID-Tag des LKW/Racks>",
-       				 "Identifier":    "<LKW Kennzeichen bzw. Gestellnummer.>",
-        			 "ErrorCode" :    "<Error code (1, 2 or 3)>"		
-		    
-                }
-  
-   },
- "Fulls_GatheredHubResponse":
-	    {
-	"Header":
-		    {
-			    "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5103",
-	       "TimeStamp": "24.04.2023 15:40:14"
-		    },
-  "ResponseData" : {
-        "TruckRfid":    "1234",
-        "TruckPlate":   "",
-        "Message":      "",
-        "Rack":
-                [{
-                    "RackID":               "2020070108897A021",
-                    "PartType":             "22",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "",
-                    "SequenceBreak":        "",
-                    "RackErrorText":        ""
-                },
+				{
+					"Fach" : "1",
+					"SeqNr": "2001",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "2",
+					"SeqNr": "2002",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "3",
+					"SeqNr": "2003",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "4",
+					"SeqNr": "2004",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "5",
+					"SeqNr": "2005",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "6",
+					"SeqNr": "2006",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "7",
+					"SeqNr": "2007",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "8",
+					"SeqNr": "2008",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "9",
+					"SeqNr": "2009",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "10",
+					"SeqNr": "2010",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "11",
+					"SeqNr": "2011",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "12",
+					"SeqNr": "2012",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "13",
+					"SeqNr": "2013",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "14",
+					"SeqNr": "2014",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "15",
+					"SeqNr": "2015",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "16",
+					"SeqNr": "2016",
+					"Artikel": "610 VWAACKXX"
+				}				
+			]
+		},
 		{
-                    "RackID":               "2020070108897A022",
-                    "PartType":             "21",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "2",
-                    "SequenceBreak":        "",
-                    "RackErrorText":        ""
-                }]
-  }
- },
- "CloseTrailerResponse" :
-	{
-	"Header": {
-		"MessageType": "0001",
-		"MessageCounter": "1",
-		"Station": "VW00ABCDEF00X000",
-		"Status": "0",
-		"APIKey": "5621",
-		"Timestamp": "2022-10-19 00:00:00"
-	},
-	"ResponseData": {
-		"TruckRfid": "<RFID>",
-		"TruckPlate": "<Truck plate number (optional)>",
-		"Message": "<Message>"
-	}
-}
+		"RackSeq": "0011",
+		"ML": "4",
+		"PartList" : 
+			[
+				{
+					"Fach" : "1",
+					"SeqNr": "1001",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "2",
+					"SeqNr": "1002",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "3",
+					"SeqNr": "1003",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "4",
+					"SeqNr": "1004",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "5",
+					"SeqNr": "1005",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "6",
+					"SeqNr": "1006",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "7",
+					"SeqNr": "1007",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "8",
+					"SeqNr": "1008",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "9",
+					"SeqNr": "1009",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "10",
+					"SeqNr": "1010",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "11",
+					"SeqNr": "1011",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "12",
+					"SeqNr": "1012",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "13",
+					"SeqNr": "1013",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "14",
+					"SeqNr": "1014",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "15",
+					"SeqNr": "1015",
+					"Artikel": "611 VWAACKXX"
+				},
+				{
+					"Fach" : "16",
+					"SeqNr": "1016",
+					"Artikel": "611 VWAACKXX"
+				},
+
+				{
+					"Fach" : "1",
+					"SeqNr": "2001",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "2",
+					"SeqNr": "2002",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "3",
+					"SeqNr": "2003",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "4",
+					"SeqNr": "2004",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "5",
+					"SeqNr": "2005",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "6",
+					"SeqNr": "2006",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "7",
+					"SeqNr": "2007",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "8",
+					"SeqNr": "2008",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "9",
+					"SeqNr": "2009",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "10",
+					"SeqNr": "2010",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "11",
+					"SeqNr": "2011",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "12",
+					"SeqNr": "2012",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "13",
+					"SeqNr": "2013",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "14",
+					"SeqNr": "2014",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "15",
+					"SeqNr": "2015",
+					"Artikel": "610 VWAACKXX"
+				},
+				{
+					"Fach" : "16",
+					"SeqNr": "2016",
+					"Artikel": "610 VWAACKXX"
+				}				
+			]
+		}
+	]
 }
   
 
