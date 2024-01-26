@@ -223,37 +223,7 @@
 					"SeqNr": "4010",
 					"Artikel": "611 VWAACKXX"
 				},
-				{
-					"Fach" : "11",
-					"SeqNr": "4011",
-					"Artikel": "611 VWAACKXX"
-				},
-				{
-					"Fach" : "12",
-					"SeqNr": "4012",
-					"Artikel": "611 VWAACKXX"
-				},
-				{
-					"Fach" : "13",
-					"SeqNr": "4013",
-					"Artikel": "611 VWAACKXX"
-				},
-				{
-					"Fach" : "14",
-					"SeqNr": "4014",
-					"Artikel": "611 VWAACKXX"
-				},
-				{
-					"Fach" : "15",
-					"SeqNr": "4015",
-					"Artikel": "611 VWAACKXX"
-				},
-				{
-					"Fach" : "16",
-					"SeqNr": "4016",
-					"Artikel": "611 VWAACKXX"
-				},
-
+				
 				{
 					"Fach" : "1",
 					"SeqNr": "5001",
@@ -302,36 +272,6 @@
 				{
 					"Fach" : "10",
 					"SeqNr": "5010",
-					"Artikel": "610 VWAACKXX"
-				},
-				{
-					"Fach" : "11",
-					"SeqNr": "5011",
-					"Artikel": "610 VWAACKXX"
-				},
-				{
-					"Fach" : "12",
-					"SeqNr": "5012",
-					"Artikel": "610 VWAACKXX"
-				},
-				{
-					"Fach" : "13",
-					"SeqNr": "5013",
-					"Artikel": "610 VWAACKXX"
-				},
-				{
-					"Fach" : "14",
-					"SeqNr": "5014",
-					"Artikel": "610 VWAACKXX"
-				},
-				{
-					"Fach" : "15",
-					"SeqNr": "5015",
-					"Artikel": "610 VWAACKXX"
-				},
-				{
-					"Fach" : "16",
-					"SeqNr": "5016",
 					"Artikel": "610 VWAACKXX"
 				}				
 			]
