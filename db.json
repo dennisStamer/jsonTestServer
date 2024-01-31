@@ -1,170 +1,170 @@
 {
- "CornerModuleJobData":
+ "CornerModuleJob":
 	[{
 		"RackSeq": "0010",
 		"ML": "1",
 		"PartList" : 
 			[
 				{
-					"Fach" : "1",
+					"BoxNr" : "1",
 					"SeqNr": "1001",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "2",
+					"BoxNr" : "2",
 					"SeqNr": "1002",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "3",
+					"BoxNr" : "3",
 					"SeqNr": "1003",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "4",
+					"BoxNr" : "4",
 					"SeqNr": "1004",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "5",
+					"BoxNr" : "5",
 					"SeqNr": "1005",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "6",
+					"BoxNr" : "6",
 					"SeqNr": "1006",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "7",
+					"BoxNr" : "7",
 					"SeqNr": "1007",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "8",
+					"BoxNr" : "8",
 					"SeqNr": "1008",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "9",
+					"BoxNr" : "9",
 					"SeqNr": "1009",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "10",
+					"BoxNr" : "10",
 					"SeqNr": "1010",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "11",
+					"BoxNr" : "11",
 					"SeqNr": "1011",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "12",
+					"BoxNr" : "12",
 					"SeqNr": "1012",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "13",
+					"BoxNr" : "13",
 					"SeqNr": "1013",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "14",
+					"BoxNr" : "14",
 					"SeqNr": "1014",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "15",
+					"BoxNr" : "15",
 					"SeqNr": "1015",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "16",
+					"BoxNr" : "16",
 					"SeqNr": "1016",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 
 				{
-					"Fach" : "1",
+					"BoxNr" : "1",
 					"SeqNr": "2001",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "2",
+					"BoxNr" : "2",
 					"SeqNr": "2002",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "3",
+					"BoxNr" : "3",
 					"SeqNr": "2003",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "4",
+					"BoxNr" : "4",
 					"SeqNr": "2004",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "5",
+					"BoxNr" : "5",
 					"SeqNr": "2005",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "6",
+					"BoxNr" : "6",
 					"SeqNr": "2006",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "7",
+					"BoxNr" : "7",
 					"SeqNr": "2007",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "8",
+					"BoxNr" : "8",
 					"SeqNr": "2008",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "9",
+					"BoxNr" : "9",
 					"SeqNr": "2009",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "10",
+					"BoxNr" : "10",
 					"SeqNr": "2010",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "11",
+					"BoxNr" : "11",
 					"SeqNr": "2011",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "12",
+					"BoxNr" : "12",
 					"SeqNr": "2012",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "13",
+					"BoxNr" : "13",
 					"SeqNr": "2013",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "14",
+					"BoxNr" : "14",
 					"SeqNr": "2014",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "15",
+					"BoxNr" : "15",
 					"SeqNr": "2015",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "16",
+					"BoxNr" : "16",
 					"SeqNr": "2016",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				}				
 			]
 		},
@@ -174,105 +174,105 @@
 		"PartList" : 
 			[
 				{
-					"Fach" : "1",
+					"BoxNr" : "1",
 					"SeqNr": "4001",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "2",
+					"BoxNr" : "2",
 					"SeqNr": "4002",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "3",
+					"BoxNr" : "3",
 					"SeqNr": "4003",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "4",
+					"BoxNr" : "4",
 					"SeqNr": "4004",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "5",
+					"BoxNr" : "5",
 					"SeqNr": "4005",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "6",
+					"BoxNr" : "6",
 					"SeqNr": "4006",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "7",
+					"BoxNr" : "7",
 					"SeqNr": "4007",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "8",
+					"BoxNr" : "8",
 					"SeqNr": "4008",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "9",
+					"BoxNr" : "9",
 					"SeqNr": "4009",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				{
-					"Fach" : "10",
+					"BoxNr" : "10",
 					"SeqNr": "4010",
-					"Artikel": "611 VWAACKXX"
+					"PartId": "611 VWAACKXX"
 				},
 				
 				{
-					"Fach" : "1",
+					"BoxNr" : "1",
 					"SeqNr": "5001",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "2",
+					"BoxNr" : "2",
 					"SeqNr": "5002",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "3",
+					"BoxNr" : "3",
 					"SeqNr": "5003",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "4",
+					"BoxNr" : "4",
 					"SeqNr": "5004",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "5",
+					"BoxNr" : "5",
 					"SeqNr": "5005",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "6",
+					"BoxNr" : "6",
 					"SeqNr": "5006",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "7",
+					"BoxNr" : "7",
 					"SeqNr": "5007",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "8",
+					"BoxNr" : "8",
 					"SeqNr": "5008",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "9",
+					"BoxNr" : "9",
 					"SeqNr": "5009",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				},
 				{
-					"Fach" : "10",
+					"BoxNr" : "10",
 					"SeqNr": "5010",
-					"Artikel": "610 VWAACKXX"
+					"PartId": "610 VWAACKXX"
 				}				
 			]
 		}
