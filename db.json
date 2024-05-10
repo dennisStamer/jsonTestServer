@@ -1,282 +1,68 @@
 {
- "CornerModuleJob":
-	[{
-		"RackSeq": "0010",
-		"ML": "1",
-		"PartList" : 
-			[
-				{
-					"BoxNr" : "1",
-					"SeqNr": "1001",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "2",
-					"SeqNr": "1002",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "3",
-					"SeqNr": "1003",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "4",
-					"SeqNr": "1004",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "5",
-					"SeqNr": "1005",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "6",
-					"SeqNr": "1006",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "7",
-					"SeqNr": "1007",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "8",
-					"SeqNr": "1008",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "9",
-					"SeqNr": "1009",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "10",
-					"SeqNr": "1010",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "11",
-					"SeqNr": "1011",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "12",
-					"SeqNr": "1012",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "13",
-					"SeqNr": "1013",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "14",
-					"SeqNr": "1014",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "15",
-					"SeqNr": "1015",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "16",
-					"SeqNr": "1016",
-					"PartId": "611 VWAACKXX"
-				},
-
-				{
-					"BoxNr" : "1",
-					"SeqNr": "2001",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "2",
-					"SeqNr": "2002",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "3",
-					"SeqNr": "2003",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "4",
-					"SeqNr": "2004",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "5",
-					"SeqNr": "2005",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "6",
-					"SeqNr": "2006",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "7",
-					"SeqNr": "2007",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "8",
-					"SeqNr": "2008",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "9",
-					"SeqNr": "2009",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "10",
-					"SeqNr": "2010",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "11",
-					"SeqNr": "2011",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "12",
-					"SeqNr": "2012",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "13",
-					"SeqNr": "2013",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "14",
-					"SeqNr": "2014",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "15",
-					"SeqNr": "2015",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "16",
-					"SeqNr": "2016",
-					"PartId": "610 VWAACKXX"
-				}				
-			]
+	"AvailableEmptyRackResponse": {
+		"Header": {
+			"MessageType": "0002",
+			"MessageCounter": "1",
+			"Station": "VW13HANLFH01T001",
+			"Status": "OK",
+			"APIKey": "5520",
+			"TimeStamp": "24.04.2023 15:40:14"
 		},
-		{
-		"RackSeq": "0011",
-		"ML": "4",
-		"PartList" : 
-			[
-				{
-					"BoxNr" : "1",
-					"SeqNr": "4001",
-					"PartId": "611 VWAACKXX"
+		"ResponseData": {
+			"Site": "<Customer>",
+			"AvailableEmptyRacksCounter": [{
+					"PartType": "HA",
+					"Counter": "12"
 				},
 				{
-					"BoxNr" : "2",
-					"SeqNr": "4002",
-					"PartId": "611 VWAACKXX"
+					"PartType": "VA",
+					"Counter": "8"
 				},
 				{
-					"BoxNr" : "3",
-					"SeqNr": "4003",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "4",
-					"SeqNr": "4004",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "5",
-					"SeqNr": "4005",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "6",
-					"SeqNr": "4006",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "7",
-					"SeqNr": "4007",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "8",
-					"SeqNr": "4008",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "9",
-					"SeqNr": "4009",
-					"PartId": "611 VWAACKXX"
-				},
-				{
-					"BoxNr" : "10",
-					"SeqNr": "4010",
-					"PartId": "611 VWAACKXX"
-				},
-				
-				{
-					"BoxNr" : "1",
-					"SeqNr": "5001",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "2",
-					"SeqNr": "5002",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "3",
-					"SeqNr": "5003",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "4",
-					"SeqNr": "5004",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "5",
-					"SeqNr": "5005",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "6",
-					"SeqNr": "5006",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "7",
-					"SeqNr": "5007",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "8",
-					"SeqNr": "5008",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "9",
-					"SeqNr": "5009",
-					"PartId": "610 VWAACKXX"
-				},
-				{
-					"BoxNr" : "10",
-					"SeqNr": "5010",
-					"PartId": "610 VWAACKXX"
-				}				
-			]
-		}
-	]
-}
-  
+					"PartType": "LG",
+					"Counter": "10"
+				}
+			],
+			"Message": "<Message>"
 
+		}
+
+	},
+	"CheckTrailerIdResponse": {
+		"Header": {
+			"MessageType": "0002",
+			"MessageCounter": "1",
+			"Station": "VW13HANLFH01T001",
+			"Status": "OK",
+			"APIKey": "5104",
+			"TimeStamp": "24.04.2023 15:40:14"
+		},
+		"ResponseData": {
+			"TruckRfid": "12346789",
+			"TruckPlate": "<Truck plate number>",
+			"TruckStatus": "<Plate number status>",
+			"TruckDeparture": "<Timestamp departure of truck>",
+			"Message": "<Message>"
+
+		}
+
+	},
+	"CreateTrailerIdResponse": 
+   {
+	 "Header": {
+	       "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5010",
+	       "TimeStamp": "24.04.2023 15:40:14"
+                },
+		"ResponseData": {
+		       	    	 "RfId":          "<RFID-Tag des LKW/Racks>",
+       				 "Identifier":    "<LKW Kennzeichen bzw. Gestellnummer.>",
+        			 "ErrorCode" :    "<Error code (1, 2 or 3)>"		
+		    
+                }
+  
+   }
+}
