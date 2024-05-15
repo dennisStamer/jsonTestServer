@@ -1,68 +1,50 @@
 {
-	"AvailableEmptyRackResponse": {
+	"LasstLoadedRacksMQB": {
 		"Header": {
-			"MessageType": "0002",
+			"MessageType": "0001",
 			"MessageCounter": "1",
 			"Station": "VW13HANLFH01T001",
 			"Status": "OK",
-			"APIKey": "5520",
+			"APIKey": "5701",
 			"TimeStamp": "24.04.2023 15:40:14"
 		},
-		"ResponseData": {
-			"Site": "<Customer>",
-			"AvailableEmptyRacksCounter": [{
-					"PartType": "HA",
-					"Counter": "12"
-				},
-				{
-					"PartType": "VA",
-					"Counter": "8"
-				},
-				{
-					"PartType": "LG",
-					"Counter": "10"
-				}
-			],
-			"Message": "<Message>"
+		  "ResponseData": {
+               "SiteLines": [{
+                   "SiteLine": "ML1",
+                   "LastLoadedRacks": [{
+                         "PartType": "CM",
+                         "RackNo": "0001"
+                      },{
+                         "PartType": "VA",
+                         "RackNo": "0011"
+                      },{
+                         "PartType": "F/D",
+                         "RackNo": "0021"
+                      },
+					  {
+                         "PartType": "HA",
+                         "RackNo": "0031"
+                      }]
+              },
+			  {
+                   "SiteLine": "ML4",
+                   "LastLoadedRacks": [{
+                         "PartType": "CM",
+                         "RackNo": "0051"
+                      },{
+                         "PartType": "VA",
+                         "RackNo": "0061"
+                      },{
+                         "PartType": "F/D",
+                         "RackNo": "0071"
+                      },
+					  {
+                         "PartType": "HA",
+                         "RackNo": "0081"
+                      }]
+              }], 
+           "Message": "<Message>"
+          } 
 
-		}
-
-	},
-	"CheckTrailerIdResponse": {
-		"Header": {
-			"MessageType": "0002",
-			"MessageCounter": "1",
-			"Station": "VW13HANLFH01T001",
-			"Status": "OK",
-			"APIKey": "5104",
-			"TimeStamp": "24.04.2023 15:40:14"
-		},
-		"ResponseData": {
-			"TruckRfid": "12346789",
-			"TruckPlate": "<Truck plate number>",
-			"TruckStatus": "<Plate number status>",
-			"TruckDeparture": "<Timestamp departure of truck>",
-			"Message": "<Message>"
-
-		}
-
-	},
-	"CreateTrailerIdResponse": 
-   {
-	 "Header": {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5010",
-	       "TimeStamp": "24.04.2023 15:40:14"
-                },
-		"ResponseData": {
-		       	    	 "RfId":          "<RFID-Tag des LKW/Racks>",
-       				 "Identifier":    "<LKW Kennzeichen bzw. Gestellnummer.>",
-        			 "ErrorCode" :    "<Error code (1, 2 or 3)>"		
-		    
-                }
-  
-   }
+	}
 }
