@@ -68,6 +68,33 @@
                          "PartType": "VL",
                          "RackNo": "10"
                       }]
+              },
+		           {
+                   "SiteLine": "ML5",
+                   "LastLoadedRacks": [{
+                         "PartType": "ML",
+                         "RackNo": "8"
+                      },{
+                         "PartType": "LHI",
+                         "RackNo": "9"
+                      },{
+                         "PartType": "VL",
+                         "RackNo": "10"
+                      },{
+                         "PartType": "F/D",
+                         "RackNo": "00001"
+                      },{
+                         "PartType": "VA",
+                         "RackNo": "0011"
+                      },
+			   {
+                         "PartType": "CM",
+                         "RackNo": "0021"
+                      },
+		      {
+                         "PartType": "HA",
+                         "RackNo": "0031"
+                      }]
               }
 	       ], 
            "Message": "<Message>"
