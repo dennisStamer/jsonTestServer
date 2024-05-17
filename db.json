@@ -10,7 +10,7 @@
 		},
 		  "ResponseData": {
                "SiteLines": [{
-                   "SiteLine": "ML11",
+                   "SiteLine": "ML1",
                    "LastLoadedRacks": [{
                          "PartType": "F/D",
                          "RackNo": "00001"
