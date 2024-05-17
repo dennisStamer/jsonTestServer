@@ -17,11 +17,8 @@
                       },{
                          "PartType": "VA",
                          "RackNo": "0011"
-                      },{
-                         "PartType": "CM",
-                         "RackNo": "0021"
                       },
-					  {
+		      {
                          "PartType": "HA",
                          "RackNo": "0031"
                       }]
