@@ -55,6 +55,19 @@
                          "PartType": "VL",
                          "RackNo": "7"
                       }]
+              },
+		         {
+                   "SiteLine": "ML2",
+                   "LastLoadedRacks": [{
+                         "PartType": "ML",
+                         "RackNo": "8"
+                      },{
+                         "PartType": "LHI",
+                         "RackNo": "9"
+                      },{
+                         "PartType": "VL",
+                         "RackNo": "10"
+                      }]
               }
 	       ], 
            "Message": "<Message>"
