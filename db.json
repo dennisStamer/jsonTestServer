@@ -43,7 +43,20 @@
                          "PartType": "F/D",
                          "RackNo": "0081"
                       }]
-              }], 
+              },	  {
+                   "SiteLine": "ML3",
+                   "LastLoadedRacks": [{
+                         "PartType": "ML",
+                         "RackNo": "5"
+                      },{
+                         "PartType": "LHI",
+                         "RackNo": "6"
+                      },{
+                         "PartType": "VL",
+                         "RackNo": "7"
+                      }]
+              }
+	       ], 
            "Message": "<Message>"
           } 
 
