@@ -13,10 +13,14 @@
                    "SiteLine": "ML1",
                    "LastLoadedRacks": [{
                          "PartType": "F/D",
-                         "RackNo": "0001"
+                         "RackNo": "00001"
                       },{
                          "PartType": "VA",
                          "RackNo": "0011"
+                      },
+			   {
+                         "PartType": "CM",
+                         "RackNo": "0021"
                       },
 		      {
                          "PartType": "HA",
