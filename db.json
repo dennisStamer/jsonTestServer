@@ -5,7 +5,16 @@
 		"ML": "1",
 		"PartList" : 
 			[
-
+				{
+					"BoxNr" : "1",
+					"SeqNr": "1001",
+					"PartId": "611 VWAACKXX"
+				},
+				{
+					"BoxNr" : "2",
+					"SeqNr": "1002",
+					"PartId": "611 VWAACKXX"
+				},
 				{
 					"BoxNr" : "3",
 					"SeqNr": "1003",
