@@ -1,30 +1,66 @@
 {
     "CornerModuleJobControlled": {
-        "RackSeq": "0010",
-        "SiteLine": "1",
+        "RackSeq": "9932",
+        "SiteLine": "4",
         "RackSide": "CML",
         "PartList": [
             {
                 "BoxNr": 1,
-                "SeqNr": 1001,
-                "ScanCode": "611 VWAACKXX",
+                "SeqNr": 1277,
+                "ScanCode": "####*611 VWAACK34769*=11202402424071-A255-M100-04-0586-20240123133000",
                 "IsOverruled": false
             },
             {
                 "BoxNr": 2,
-                "SeqNr": 1002,
-                "ScanCode": "611 VWAACKXX",
+                "SeqNr": 1278,
+                "ScanCode": "610 VWAACI9HL8+",
                 "IsOverruled": false
             },
             {
                 "BoxNr": 3,
-                "SeqNr": 1003,
-                "ScanCode": "611 VWAACKXX",
+                "SeqNr": 1279,
+                "ScanCode": "610 VWAACI9HMWN",
                 "IsOverruled": false
             },
             {
                 "BoxNr": 4,
-                "SeqNr": 1004,
+                "SeqNr": 1280,
+                "ScanCode": "610 VWAACI9HPOI",
+                "IsOverruled": false
+            },
+            {
+                "BoxNr": 5,
+                "SeqNr": 1281,
+                "ScanCode": "610 VWAACI9HT0+",
+                "IsOverruled": false
+            },
+            {
+                "BoxNr": 6,
+                "SeqNr": 1282,
+                "ScanCode": "611 VWAACKXX",
+                "IsOverruled": false
+            },
+            {
+                "BoxNr": 7,
+                "SeqNr": 1283,
+                "ScanCode": "611 VWAACKXX",
+                "IsOverruled": false
+            },
+            {
+                "BoxNr": 8,
+                "SeqNr": 1284,
+                "ScanCode": "611 VWAACKXX",
+                "IsOverruled": false
+            },
+            {
+                "BoxNr": 9,
+                "SeqNr": 1285,
+                "ScanCode": "611 VWAACKXX",
+                "IsOverruled": false
+            },
+            {
+                "BoxNr": 10,
+                "SeqNr": 1286,
                 "ScanCode": "611 VWAACKXX",
                 "IsOverruled": false
             }
