@@ -2,7 +2,7 @@
     "CornerModuleJobControlled": {
         "RackSeq": "9932",
         "SiteLine": "4",
-        "RackSide": "CMR",
+        "RackSide": "CML",
         "PartList": [
             {
                 "BoxNr": 1,
