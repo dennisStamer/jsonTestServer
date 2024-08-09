@@ -1,178 +1,87 @@
 {
-    "LastLoadedRackResponse": {
-        "Header": {
-            "MessageType": "0002",
-            "MessageCounter": "1",
-            "Station": "VW13HANLFH01T001",
-            "Status": "OK",
-            "APIKey": "5601",
-            "TimeStamp": "24.04.2023 15:40:14"
-        },
-        "ResponseData": {
-            "Site": "<Customer>",
-            "LastLoadedRack": [
-                {
-                    "PartType": "21",
-                    "RackNo": "12"
+ "Fulls_GatheredHubResponse":
+	    {
+	"Header":
+		    {
+			    "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5103",
+	       "TimeStamp": "24.04.2023 15:40:14"
+		    },
+  "ResponseData" : {
+        "TruckRfid":    "1234",
+        "TruckPlate":   "",
+        "Message":      "",
+        "Rack":
+                [{
+                    "RackID":               "2020070108897A021",
+                    "PartType":             "VA",
+                    "SequenceRange":        "",
+                    "RackPosition":         "",
+                    "Antenna":              "",
+                    "RackLoadingStatus":    "",
+                    "Blacklist":            "",
+                    "CustomerSite":         "",
+                    "SequenceBreak":        "",
+                    "RackErrorText":        ""
                 },
-                {
-                    "PartType": "22",
-                    "RackNo": "8"
-                },
-                {
-                    "PartType": "25",
-                    "RackNo": "10"
-                }
-            ],
-            "Message": "<Message>"
+		{
+                    "RackID":               "2020070108897A022",
+                    "PartType":             "HA",
+                    "SequenceRange":        "",
+                    "RackPosition":         "",
+                    "Antenna":              "",
+                    "RackLoadingStatus":    "",
+                    "Blacklist":            "",
+                    "CustomerSite":         "2",
+                    "SequenceBreak":        "",
+                    "RackErrorText":        ""
+                }]
+  }
+ },
+	 "FD_TransportJobResponse":
+	    {
+	"Header":
+		    {
+			    "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5520",
+	       "TimeStamp": "24.04.2023 15:40:14"
+		    },
+  "ResponseData" : {
+	       "WorkOrderId": "03e6a85453034776953b0e5b3b07352d",
+	       "WorkOrderStatus": "Requested",
+	       "AcknowledgeBy": "13.04.2023 13:56:56",
+	       "CompleteBy": "13.04.2023 13:56:56",
+	       "DestinationStorageSpaceName": "VW13HANLFL01L003",
+	       "Rack": [{
+			       "RackRfId": "2020082108897A021050000D",
+			       "RackSprayNumber": "VA046",
+			       "RackNo": "6629",
+			       "SequenceBreak": null
+	       }],
+	       "Message": null
         }
-    },
-    "CheckTrailerIdResponse": {
-        "Header": {
-            "MessageType": "0002",
-            "MessageCounter": "1",
-            "Station": "VW13HANLFH01T001",
-            "Status": "OK",
-            "APIKey": "5104",
-            "TimeStamp": "24.04.2023 15:40:14"
-        },
-        "ResponseData": {
-            "TruckRfid": "12346789",
-            "TruckPlate": "<Truck plate number>",
-            "TruckStatus": "<Plate number status>",
-            "TruckDeparture": "<Timestamp departure of truck>",
-            "Message": "<Message>"
+  },
+   "StockRackResponse":
+	    {
+	"Header":
+		    {
+	       "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5523",
+	       "TimeStamp": "24.04.2023 15:40:14"
+		    },
+  "ResponseData" : {
+	       "WorkOrderId": "03e6a85453034776953b0e5b3b07352d",
+	       "WorkOrderStatus": "Finished",
+	       "Message": null
         }
-    },
-    "CreateTrailerIdResponse": {
-        "Header": {
-            "MessageType": "0002",
-            "MessageCounter": "1",
-            "Station": "VW13HANLFH01T001",
-            "Status": "OK",
-            "APIKey": "5010",
-            "TimeStamp": "24.04.2023 15:40:14"
-        },
-        "ResponseData": {
-            "RfId": "<RFID-Tag des LKW/Racks>",
-            "Identifier": "<LKW Kennzeichen bzw. Gestellnummer.>",
-            "ErrorCode": "<Error code (1, 2 or 3)>"
-        }
-    },
-    "Fulls_GatheredHubResponse": {
-        "Header": {
-            "MessageType": "0002",
-            "MessageCounter": "1",
-            "Station": "VW13HANLFH01T001",
-            "Status": "OK",
-            "APIKey": "5103",
-            "TimeStamp": "24.04.2023 15:40:14"
-        },
-        "ResponseData": {
-            "TruckRfid": "2020070108897A02106001B3",
-            "TruckPlate": "Z S 3645",
-            "Message": null,
-            "Rack": [
-                {
-                    "RackID": "2021121508897A021A100006",
-                    "RackNo": "5041",
-                    "PartType": "21",
-                    "SequenceRange": "0624 - 0626",
-                    "RackPosition": "0",
-                    "Antenna": "0",
-                    "RackLoadingStatus": "0",
-                    "Blacklist": "2",
-                    "CustomerSite": "1",
-                    "SequenceBreak": "1",
-                    "SequenceBreakMessage": "Sequenzbruch 5041 zur vorherigen Verladung 4708!",
-                    "RackErrorText": null
-                },
-                {
-                    "RackID": "2023072008897A021A200166",
-                    "RackNo": "4056",
-                    "PartType": "22",
-                    "SequenceRange": "0622 - 0626",
-                    "RackPosition": "0",
-                    "Antenna": "0",
-                    "RackLoadingStatus": "0",
-                    "Blacklist": "2",
-                    "CustomerSite": "1",
-                    "SequenceBreak": "1",
-                    "SequenceBreakMessage": "Sequenzbruch 4056 zur vorherigen Verladung 3858!",
-                    "RackErrorText": null
-                },
-                {
-                    "RackID": "2023072008897A021A200183",
-                    "RackNo": "4058",
-                    "PartType": "22",
-                    "SequenceRange": "0632 - 0636",
-                    "RackPosition": "0",
-                    "Antenna": "0",
-                    "RackLoadingStatus": "0",
-                    "Blacklist": "2",
-                    "CustomerSite": "1",
-                    "SequenceBreak": "2",
-                    "SequenceBreakMessage": "Sequenzbruch 4058 innerhalb der aktuellen Verladung 4056!",
-                    "RackErrorText": null
-                },
-                {
-                    "RackID": "2021121508897A021A10018A",
-                    "RackNo": "1293",
-                    "PartType": "23",
-                    "SequenceRange": "0605 - 0620",
-                    "RackPosition": "0",
-                    "Antenna": "0",
-                    "RackLoadingStatus": "0",
-                    "Blacklist": "2",
-                    "CustomerSite": "1",
-                    "SequenceBreak": "1",
-                    "SequenceBreakMessage": "Sequenzbruch 1293 zur vorherigen Verladung 1231!",
-                    "RackErrorText": null
-                },
-                {
-                    "RackID": "2021121508897A021A10018E",
-                    "RackNo": "1293",
-                    "PartType": "24",
-                    "SequenceRange": "0605 - 0620",
-                    "RackPosition": "0",
-                    "Antenna": "0",
-                    "RackLoadingStatus": "0",
-                    "Blacklist": "2",
-                    "CustomerSite": "1",
-                    "SequenceBreak": "1",
-                    "SequenceBreakMessage": "Sequenzbruch 1293 zur vorherigen Verladung 1231!",
-                    "RackErrorText": null
-                },
-                {
-                    "RackID": "2021121508897A021A10017B",
-                    "RackNo": "1706",
-                    "PartType": "25",
-                    "SequenceRange": "0594 - 0605",
-                    "RackPosition": "0",
-                    "Antenna": "0",
-                    "RackLoadingStatus": "0",
-                    "Blacklist": "2",
-                    "CustomerSite": "1",
-                    "SequenceBreak": "1",
-                    "SequenceBreakMessage": "Sequenzbruch 1706 zur vorherigen Verladung 1625!",
-                    "RackErrorText": null
-                }
-            ]
-        }
-    },
-    "CloseTrailerResponse": {
-        "Header": {
-            "MessageType": "0001",
-            "MessageCounter": "1",
-            "Station": "VW00ABCDEF00X000",
-            "Status": "0",
-            "APIKey": "5621",
-            "Timestamp": "2022-10-19 00:00:00"
-        },
-        "ResponseData": {
-            "TruckRfid": "<RFID>",
-            "TruckPlate": "<Truck plate number (optional)>",
-            "Message": "<Message>"
-        }
-    }
+  }
 }
