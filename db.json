@@ -1,4 +1,74 @@
 {
+"LastLoadedRackResponse": 
+   {
+	 "Header": {
+	       "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5601",
+	       "TimeStamp": "24.04.2023 15:40:14"
+                },
+	"ResponseData": {
+		       	    "Site": "<Customer>",
+			    "LastLoadedRack": [
+			      {
+			        "PartType": "21",
+			        "RackNo": "12"
+			      },
+				    {
+					 "PartType": "22",
+			        	  "RackNo": "8"   
+				    },
+				     {
+					 "PartType": "25",
+			        	  "RackNo": "10"   
+				    }
+			    ],
+			    "Message": "<Message>"
+		    
+                }
+  
+   },
+
+  "CheckTrailerIdResponse": 
+   {
+	 "Header": {
+	       "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5104",
+	       "TimeStamp": "24.04.2023 15:40:14"
+                },
+		"ResponseData": {
+		       	    "TruckRfid":               "12346789",
+			    "TruckPlate":              "<Truck plate number>",
+			    "TruckStatus":             "<Plate number status>",
+			    "TruckDeparture":          "<Timestamp departure of truck>",
+			    "Message":                 "<Message>"		
+		    
+                }
+  
+   },
+	 "CreateTrailerIdResponse": 
+   {
+	 "Header": {
+	       "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5010",
+	       "TimeStamp": "24.04.2023 15:40:14"
+                },
+		"ResponseData": {
+		       	    	 "RfId":          "<RFID-Tag des LKW/Racks>",
+       				 "Identifier":    "<LKW Kennzeichen bzw. Gestellnummer.>",
+        			 "ErrorCode" :    "<Error code (1, 2 or 3)>"		
+		    
+                }
+  
+   },
  "Fulls_GatheredHubResponse":
 	    {
 	"Header":
@@ -41,47 +111,22 @@
                 }]
   }
  },
-	 "FD_TransportJobResponse":
-	    {
-	"Header":
-		    {
-			    "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5520",
-	       "TimeStamp": "24.04.2023 15:40:14"
-		    },
-  "ResponseData" : {
-	       "WorkOrderId": "03e6a85453034776953b0e5b3b07352d",
-	       "WorkOrderStatus": "Requested",
-	       "AcknowledgeBy": "13.04.2023 13:56:56",
-	       "CompleteBy": "13.04.2023 13:56:56",
-	       "DestinationStorageSpaceName": "VW13HANLFL01L003",
-	       "Rack": [{
-			       "RackRfId": "2020082108897A021050000D",
-			       "RackSprayNumber": "VA046",
-			       "RackNo": "6629",
-			       "SequenceBreak": null
-	       }],
-	       "Message": null
-        }
-  },
-   "StockRackResponse":
-	    {
-	"Header":
-		    {
-	       "MessageType": "0002",
-	       "MessageCounter": "1",
-	       "Station": "VW13HANLFH01T001",
-	       "Status": "OK",
-	       "APIKey": "5523",
-	       "TimeStamp": "24.04.2023 15:40:14"
-		    },
-  "ResponseData" : {
-	       "WorkOrderId": "03e6a85453034776953b0e5b3b07352d",
-	       "WorkOrderStatus": "Finished",
-	       "Message": null
-        }
-  }
+ "CloseTrailerResponse" :
+	{
+	"Header": {
+		"MessageType": "0001",
+		"MessageCounter": "1",
+		"Station": "VW00ABCDEF00X000",
+		"Status": "0",
+		"APIKey": "5621",
+		"Timestamp": "2022-10-19 00:00:00"
+	},
+	"ResponseData": {
+		"TruckRfid": "<RFID>",
+		"TruckPlate": "<Truck plate number (optional)>",
+		"Message": "<Message>"
+	}
 }
+}
+  
+
