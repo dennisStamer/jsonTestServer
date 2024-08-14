@@ -94,7 +94,7 @@
                     "RackLoadingStatus":    "",
                     "Blacklist":            "",
                     "CustomerSite":         "",
-                    "SequenceBreak":        "",
+                    "SequenceBreak":        "1",
                     "RackErrorText":        ""
                 },
 		{
