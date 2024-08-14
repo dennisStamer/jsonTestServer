@@ -95,7 +95,8 @@
                     "Blacklist":            "",
                     "CustomerSite":         "",
                     "SequenceBreak":        "1",
-                    "RackErrorText":        ""
+                    "RackErrorText":        "",
+		    "SequenceBreakMessage": "Sequenzbruch 5041 zur vorherigen Verladung 4708!"
                 },
 		{
                     "RackID":               "2020070108897A022",
