@@ -86,27 +86,31 @@
         "Message":      "",
         "Rack":
                 [{
-                    "RackID":               "2020070108897A021",
-                    "PartType":             "VA",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "",
-                    "SequenceBreak":        "",
+                    "RackID":               "2021121508897A021A100188",
+                    "PartType":             "21",
+		    "RackNo":               "5406"
+                    "SequenceRange":        "0720 - 0722",
+                    "RackPosition":         "0",
+                    "Antenna":              "0",
+                    "RackLoadingStatus":    "0",
+                    "Blacklist":            "2",
+                    "CustomerSite":         "1",
+                    "SequenceBreak":        "1",
+	            "SequenceBreakMessage": "Sequenzbruch 5406 zur vorherigen Verladung 5043!",
                     "RackErrorText":        ""
                 },
 		{
-                    "RackID":               "2020070108897A022",
-                    "PartType":             "HA",
-                    "SequenceRange":        "",
-                    "RackPosition":         "",
-                    "Antenna":              "",
-                    "RackLoadingStatus":    "",
-                    "Blacklist":            "",
-                    "CustomerSite":         "2",
-                    "SequenceBreak":        "",
+                    "RackID":               "2023072008897A021A200142",
+                    "PartType":             "22",
+		    "RackNo":               "4265"
+                    "SequenceRange":        "0668 - 0672",
+                    "RackPosition":         "0",
+                    "Antenna":              "0",
+                    "RackLoadingStatus":    "0",
+                    "Blacklist":            "2",
+                    "CustomerSite":         "1",
+                    "SequenceBreak":        "1",
+	            "SequenceBreakMessage": "Sequenzbruch 4265 zur vorherigen Verladung 4058!",
                     "RackErrorText":        ""
                 }]
   }
