@@ -88,7 +88,7 @@
                 [{
                     "RackID":               "2021121508897A021A100188",
                     "PartType":             "21",
-		    "RackNo":               "5406"
+		    "RackNo":               "5406",
                     "SequenceRange":        "0720 - 0722",
                     "RackPosition":         "0",
                     "Antenna":              "0",
@@ -102,7 +102,7 @@
 		{
                     "RackID":               "2023072008897A021A200142",
                     "PartType":             "22",
-		    "RackNo":               "4265"
+		    "RackNo":               "4265",
                     "SequenceRange":        "0668 - 0672",
                     "RackPosition":         "0",
                     "Antenna":              "0",
