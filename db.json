@@ -88,29 +88,31 @@
                 [{
                     "RackID":               "2021121508897A021A100188",
                     "PartType":             "21",
+		    "RackSprayNumber":      "VA0001",
 		    "RackNo":               "5406",
                     "SequenceRange":        "0720 - 0722",
                     "RackPosition":         "0",
                     "Antenna":              "0",
                     "RackLoadingStatus":    "0",
-                    "Blacklist":            "2",
+                    "Blacklist":            "",
                     "CustomerSite":         "1",
-                    "SequenceBreak":        "1",
-	            "SequenceBreakMessage": "Sequenzbruch 5406 zur vorherigen Verladung 5043!",
+                    "SequenceBreak":        "0",
+	            "SequenceBreakMessage": "",
                     "RackErrorText":        ""
                 },
 		{
                     "RackID":               "2023072008897A021A200142",
                     "PartType":             "22",
 		    "RackNo":               "4265",
+		    "RackSprayNumber":      "VA0002",
                     "SequenceRange":        "0668 - 0672",
                     "RackPosition":         "0",
                     "Antenna":              "0",
                     "RackLoadingStatus":    "0",
-                    "Blacklist":            "2",
+                    "Blacklist":            "",
                     "CustomerSite":         "1",
-                    "SequenceBreak":        "1",
-	            "SequenceBreakMessage": "Sequenzbruch 4265 zur vorherigen Verladung 4058!",
+                    "SequenceBreak":        "0",
+	            "SequenceBreakMessage": "",
                     "RackErrorText":        ""
                 }]
   }
