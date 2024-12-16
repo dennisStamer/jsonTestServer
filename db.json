@@ -122,7 +122,23 @@
                     "SequenceBreak":        "0",
 	            "SequenceBreakMessage": "",
                     "RackErrorText":        ""
-                }]
+                },
+		{
+                    "RackID":               "2023072008897A021A200145",
+                    "PartType":             "23",
+		    "RackNo":               "4267",
+		    "RackSprayNumber":      "CML0005",
+                    "SequenceRange":        "0668 - 0672",
+                    "RackPosition":         "0",
+                    "Antenna":              "0",
+                    "RackLoadingStatus":    "0",
+                    "Blacklist":            "",
+                    "CustomerSite":         "1",
+                    "SequenceBreak":        "0",
+	            "SequenceBreakMessage": "",
+                    "RackErrorText":        ""
+                }
+		]
   }
  },
  "CloseTrailerResponse" :
