@@ -108,6 +108,21 @@
 	            "SequenceBreakMessage": "",
                     "RackErrorText":        ""
                 },
+			{
+                    "RackID":               "2021121508897A021A100188",
+                    "PartType":             "21",
+		    "RackSprayNumber":      "VA000612",
+		    "RackNo":               "9999",
+                    "SequenceRange":        "0720 - 0722",
+                    "RackPosition":         "0",
+                    "Antenna":              "0",
+                    "RackLoadingStatus":    "0",
+                    "Blacklist":            "",
+                    "CustomerSite":         "1",
+                    "SequenceBreak":        "0",
+	            "SequenceBreakMessage": "",
+                    "RackErrorText":        ""
+                },
 		{
                     "RackID":               "2023072008897A021A200142",
                     "PartType":             "22",
