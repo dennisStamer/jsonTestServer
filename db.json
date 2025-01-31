@@ -185,22 +185,55 @@
 		]
   }
  },
- "CloseTrailerResponse" :
-	{
-	"Header": {
-		"MessageType": "0001",
-		"MessageCounter": "1",
-		"Station": "VW00ABCDEF00X000",
-		"Status": "0",
-		"APIKey": "5621",
-		"Timestamp": "2022-10-19 00:00:00"
-	},
-	"ResponseData": {
-		"TruckRfid": "<RFID>",
-		"TruckPlate": "<Truck plate number (optional)>",
-		"Message": "<Message>"
-	}
-}
+ "Fulls_TrailerLoadResponse":
+	    {
+	"Header":
+		    {
+			    "MessageType": "0002",
+	       "MessageCounter": "1",
+	       "Station": "VW13HANLFH01T001",
+	       "Status": "OK",
+	       "APIKey": "5103",
+	       "TimeStamp": "24.04.2023 15:40:14"
+		    },
+  "ResponseData" : {
+        "TruckRfid":    "1234",
+        "TruckPlate":   "",
+        "Message":      "",
+        "Rack":
+                [{
+                    "RackID":               "2021121508897A021A100188",
+                    "PartType":             "21",
+		    "RackSprayNumber":      "VA0001",
+		    "RackNo":               "5406",
+                    "SequenceRange":        "0720 - 0722",
+                    "RackPosition":         "0",
+                    "Antenna":              "0",
+                    "RackLoadingStatus":    "0",
+                    "Blacklist":            "",
+                    "CustomerSite":         "1",
+                    "SequenceBreak":        "0",
+	            "SequenceBreakMessage": "",
+                    "RackErrorText":        ""
+                },
+			{
+                    "RackID":               "2021121508897A021A100188",
+                    "PartType":             "21",
+		    "RackSprayNumber":      "VA000612",
+		    "RackNo":               "9999",
+                    "SequenceRange":        "0720 - 0722",
+                    "RackPosition":         "0",
+                    "Antenna":              "0",
+                    "RackLoadingStatus":    "0",
+                    "Blacklist":            "",
+                    "CustomerSite":         "1",
+                    "SequenceBreak":        "0",
+	            "SequenceBreakMessage": "",
+                    "RackErrorText":        ""
+                }
+		]
+  }
+ }
 }
   
 
