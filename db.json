@@ -164,7 +164,7 @@
                     "Blacklist":            "2",
                     "CustomerSite":         "1",
                     "SequenceBreak":        "0",
-	            "SequenceBreakMessage": "",
+	            "SequenceBreakMessage": "Sequenzbruch 5406 zur vorherigen Verladung 5043!",
                     "RackErrorText":        ""
                 },
 		{
@@ -179,7 +179,7 @@
                     "Blacklist":            "",
                     "CustomerSite":         "1",
                     "SequenceBreak":        "0",
-	            "SequenceBreakMessage": "",
+	            "SequenceBreakMessage": "Sequenzbruch 4265 zur vorherigen Verladung 4058!",
                     "RackErrorText":        ""
                 }
 		]
